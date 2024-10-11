@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+section{
+	height:220px;
+	width:600px;
+	display:flex;
+	justify-content: flex-start;
+	align-items:center;
+	backdrop-color:pink;
+}
+img{
+	height:220px;
+	width:400px;
+	object-fit:cover;
+	flex:0.7;
+}
+div{
+	flex:0.3;
+}
+h1{
+	font-size:1.1em;
+	text-align:center;
+}
+p{
+	font-size:0.7em;
+	text-align:center;
+}
+button{
+	text-align:center;
+	padding:5px;
+	margin-left:25%;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	border:0px;
+	font-size:0.7em
+}
